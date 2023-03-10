@@ -1,0 +1,42 @@
+/*
+
+Aritimética                           | Simplificado var n = 3 | Incremento        | Relacionais        | Lógicos
+                                            
+5 +  2 = 7       soma                 | n = n +  4 -- n+=4     | var x = 5         | >  maior           | !   negação   (não)
+5 -  2 = 3       subtração            | n = n -  5 -- n-=5     | x = x + 1 -- x++  | <  menor           | !   primeiro
+5 *  2 = 10      multiplicação        | n = n *  4 -- n*=4     | x = x - 1 -- x--  | >= maior ou igual  | &&  conjunção (e)
+5 /  2 = 2.5     divisão              | n = n /  2 -- n/=2     |                   | <= menor ou igual  | &&  segundo
+5 %  2 = 1       resto da divisão     | n = n ** 2 -- n**=2    |                   | == igual           | ||  disjunção (ou)
+5 ** 2 = 25      potencia (quadrado)  | n = n %  5 -- n%=5     |                   | != diferente       | ||  terceiro
+-------------------------------------------------------------------------------------------------------------------------------
+Ternário
+
+média >= 7.0 ? "Aprovado" : "Reprovado"
+( se média for maior ou igual a 7 (?)"Aprovado"(:) senão "Reprovado")
+
+var x = 8
+
+var res = x % 2 == 0 ? 5: 9
+(se resultado for igual a 0, res sera 5)
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+Precedência
+
+()           primeiro vai comecar a expressão dentro dos parenteses
+**           segundo potencia (quadrado)
+* __ / __ %  terceiro vai sempre fazer o que estiver na frente (sempre da esquerda para a direita)
++ __ -       quarto vai sempre fazer o que estiver na frente (sempre da esquerda para a direita)
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+Atribuição Simples
+
+var a = 5 + 2          = 8
+var b = a % 5          = 3    
+var c = 5 * b ** 2     = 45    primeiro a potencia depois a multiplicação
+var d = 10 - a / 2     = 6     primeiro a divisão e depois a subtração
+var e = 6 * 2 / d      = 2     primeiro a multiplicação e depois a divisão
+var f = b % e + 4 / e  = 3     primeiro o restante da divisão depois a divisão e por ultimo a soma do restante com a divisão
+
+*/
