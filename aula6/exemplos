@@ -39,4 +39,23 @@ var d = 10 - a / 2     = 6     primeiro a divisão e depois a subtração
 var e = 6 * 2 / d      = 2     primeiro a multiplicação e depois a divisão
 var f = b % e + 4 / e  = 3     primeiro o restante da divisão depois a divisão e por ultimo a soma do restante com a divisão
 
+-------------------------------------------------------------------------------------------------------------------------------
+
+Selecionando
+
+por Marca == getElementsByTagName()
+
+por ID == getElementById()
+
+por Nome == getElementsByName()
+
+por Classe == getElementsByClassName()
+
+por Seletor == querySelector() ou querySelectorAll()
+
+
+
+
+
+
 */
