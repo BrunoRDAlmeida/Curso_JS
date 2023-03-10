@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa</title>
+    <style>
+        body{
+            background-color: rgb(106, 106, 173);
+            color: white;  
+            font: normal 20pt Arial;
+        }
+        h1{
+            color: rgb(255, 212, 22);
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Já me livrei da maldição!!</p>
+    <script>
+        var numero1 = Number(window.prompt('Digite o primeiro número: '))//string
+        var numero2 = Number(window.prompt('Digite o segundo número: '))//string
+        var soma = numero1 + numero2
+        window.alert(`A soma entre ${numero1} e ${numero2} é igual a ${soma}`)
+        
+        //window.alert('A soma dos valores é: ' + String(soma))
+
+        /*
+        var s = 'JavaScript'
+        'Eu estou aprendendo s'       não faz interpolação
+        'Eu estou aprendendo' + s     usa concatenação
+        `Eu estou aprendendo ${s}`    usa template string
+        */
+
+        // (number + number) para adição
+        // (string + string) para concatenação 
+        /*
+        para converter string para numero
+
+        Number.parseInt(numero)
+        para numeros inteiros
+
+        Number.parseFloar(numero)
+        para numeros reais com ,
+
+        Number
+        para deixar que o js decida se e inteiro ou real o valor digitado
+
+        ------------------------------------
+        para converter de numero para string 
+        
+        String(numero)
+        ou
+        numero.toString()
+
+        */
+    </script>
+</body>
+</html>
