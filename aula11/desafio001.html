@@ -14,15 +14,17 @@
     </div>
     <script>
         function verificador(){
-            var pais = document.querySelector('input#txtpais')
+           
+            var pais = document.querySelector('input#txtpais').value
             var res = document.querySelector('div#res')
-            var paisdigitado = (pais.value)
-            res.innerHTML = `<p>Seu pais de origem é <strong>${paisdigitado}</strong></p>`
-        if (pais != 'brasil'){
-            res.innerHTML += '<p>Você é estrangeiro</p>'
-        }else{
-            res.innerHTML += '<p>Você é Brasileiro</p>'
-        }
+            res.innerHTML = `<p>Seu pais de origem é <strong>${pais}</strong></p>`
+            
+            //converti em toLowerCase() apenas para fazer a comparação de minúscula para minúscula
+            if (pais.toLowerCase() != 'brasil'){
+                res.innerHTML += '<p>Você é estrangeiro</p>'
+            }else{
+                res.innerHTML += '<p>Você é Brasileiro</p>'
+            }
     }
     </script>
 </body>
