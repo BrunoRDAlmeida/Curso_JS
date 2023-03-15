@@ -12,7 +12,7 @@ Aritimética                           | Simplificado var n = 3 | Incremento    
 Ternário
 
 média >= 7.0 ? "Aprovado" : "Reprovado"
-( se média for maior ou igual a 7 (?)"Aprovado"(:) senão "Reprovado")
+( se média for maior ou igual a 7 (?) "Aprovado" (:) senão "Reprovado")
 
 var x = 8
 
@@ -53,9 +53,21 @@ por Classe == getElementsByClassName()
 
 por Seletor == querySelector() ou querySelectorAll()
 
+-------------------------------------------------------------------------------------------------------------------------------
 
+Array
 
+let num = [4, 5, 6, 7, 8]
+    key = [0, 1, 2, 3, 4]
 
+num[2] = 6  //estou adicionando o valor 6 na key 2
 
+num.push(7)  //estou adicionando o valor 7 na primeira key disponivel
+
+num.length  //comando para saber o comprimento do meu arrey (quantas keys tem o meu vetor)
+
+num.sort()  //serve para por todos os valores em ordem crescente
+
+num.indexOf(7)  //estou procura a key onde o valor '7' esta (seria na key 3)
 
 */
